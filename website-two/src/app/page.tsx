@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main>
-      Website 2
+      Website two: Chat Application
     </main>
   );
 }
