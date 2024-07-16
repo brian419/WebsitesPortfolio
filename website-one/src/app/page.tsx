@@ -4,7 +4,8 @@
 export default function Home() {
   return (
     <main>
-      Website 1
+      Website one : Online Learning Platform
     </main>
   );
 }
+
