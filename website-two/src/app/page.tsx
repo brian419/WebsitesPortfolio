@@ -1,4 +1,4 @@
-import Image from "next/image";
+// Website Two, Home Page (page.tsx)
 
 export default function Home() {
   return (
