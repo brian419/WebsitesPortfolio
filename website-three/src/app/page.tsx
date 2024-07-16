@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main>
-      Website 3
+      Website three: Social Media Website
     </main>
   );
 }
