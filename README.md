@@ -96,3 +96,11 @@ Thank you for taking the time to review my portfolio. I look forward to any oppo
 Best regards,
 
 Jeongbin Son
+
+## Personal notes to run git:
+
+- git branch, make sure I am on the right website branch when I am working on a particular website. 
+- git checkout [website-one, website-two, website-three, main]
+- git add . / git commit -m "message" / git push origin [website-one, website-two, website-three]
+- git merge [website-one, website-two, website-three] -m "merge message"
+- git push origin main (pushes the final merging to main to github)
