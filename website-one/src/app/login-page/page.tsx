@@ -1,11 +1,11 @@
-// Website One, Place B Page (page.tsx)
+// Website One, Login Page (page.tsx)
 
 
-export default function PlaceB() {
+export default function Login() {
     return (
         <main>
             <h1 className='text-center text-2xl'>
-                Placeholder for PLACE_B
+                Placeholder for Login Page
             </h1>
         </main>
     );
