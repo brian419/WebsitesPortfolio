@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={dmSans.className}>{children}
+      <body className={dmSans.className}>
         <div className='min-h-screen flex flex-col'>
             <Navbar />
             <div className='flex-grow md:pt-20 pt-6'>
