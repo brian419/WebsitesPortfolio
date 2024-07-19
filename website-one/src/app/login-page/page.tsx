@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import axios from 'axios';
-import { useRouter } from 'next/navigation'; // useRouter from 'next/navigation' for Next.js 13 and later
+import { useRouter } from 'next/navigation'; 
 
 export default function LoginPage() {
     const [email, setEmail] = useState('');
@@ -21,7 +21,7 @@ export default function LoginPage() {
                 router.push('/protected-pages/after-login-page'); 
             } else {
                 console.log('Signup successful:', response.data.message);
-                // Handle signup success here
+                
             }
         } catch (error) {
             console.error('Error:', error.response?.data?.message || error.message);
