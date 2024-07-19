@@ -12,7 +12,7 @@ export default async (req, res) => {
     const user = await db.collection('users').findOne({ email });
 
     if (user) {
-        return res.status(400).json({ message: 'User already exists' });
+        return res.status(400).json({ message: 'A user already exists with this email' });
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);

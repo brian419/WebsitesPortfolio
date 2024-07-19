@@ -30,6 +30,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
+            {/* This next section would incorporate a mailing subscription list functionality, figure that out */}
             <section className='signup-form bg-gray-100 py-12 text-center'>
                 <h2 className='text-2xl font-bold mb-4'>Get Started for Free</h2>
                 <p className='text-md mb-6'>Get alerted for new courses and lessons through our mailing subscription!</p>
