@@ -9,7 +9,7 @@ export default function HomePage() {
             <header className='hero-section bg-[#49A097] text-white text-center py-12'>
                 <h1 className='text-4xl font-bold mb-4'>Welcome to NotSchool</h1>
                 <p className='text-xl mb-6'>Join us today and start your learning journey!</p>
-                <Link href='/#' className='bg-white text-[#49A097] px-6 py-3 rounded-full font-bold text-lg'>
+                <Link href='/login-page' className='bg-white text-[#49A097] px-6 py-3 rounded-full font-bold text-lg'>
                     Sign Up
                 </Link>
             </header>
@@ -32,7 +32,7 @@ export default function HomePage() {
             </section>
             <section className='signup-form bg-gray-100 py-12 text-center'>
                 <h2 className='text-2xl font-bold mb-4'>Get Started for Free</h2>
-                <p className='text-md mb-6'>Sign up now and start learning immediately!</p>
+                <p className='text-md mb-6'>Get alerted for new courses and lessons through our mailing subscription!</p>
                 <form className='inline-block'>
                     <input type='email' placeholder='Enter your email' className='px-4 py-2 border rounded-l-full' />
                     <button type='submit' className='bg-[#49A097] text-white px-6 py-2 rounded-r-full font-bold'>
